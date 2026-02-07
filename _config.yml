@@ -1,0 +1,82 @@
+# TimeBank Albuquerque - Jekyll config for GitHub Pages
+# Edit the values below to update the site. No coding required.
+
+title: "TimeBank Albuquerque"
+description: "A way to swap & share skills & services using time exchange"
+baseurl: ""  # use "" for username.github.io/repo, or "/abqhours" for project pages
+url: ""      # e.g. "https://yourusername.github.io" (optional)
+
+# --- All editable content is under "timebank:" ---
+# Change stats, links, sample offers/requests here. Save and push to update the site.
+
+timebank:
+  # Brand colors (hex codes)
+  brand_color: "#28aae0"
+  brand_color_teal: "#00d3c3"
+  brand_color_dark: "#07467b"
+  footer_bg: "#1a3a60"
+
+  # Top bar links
+  join_url: "https://hourworld.org/bank/Join.php"
+  member_login_url: "https://hourworld.org"
+  # If your timebank has a specific hOurworld ID, add it e.g. join_url: "https://hourworld.org/bank/Join.php?hw=1069"
+
+  newsletter_url: ""   # optional - leave blank to hide newsletter link
+
+  learn_more_url: "#about"
+  get_started_url: "https://hourworld.org/bank/Join.php"
+
+  stats:
+    local_hours: "0"
+    local_hours_label: "local hours exchanged"
+    years_local: "New"
+    years_label: "Years in Albuquerque"
+    local_members: "0"
+    local_members_label: "local members"
+    global_members: "31,289"
+    global_members_label: "global network members"
+
+  sample_offers:
+    - title: "Gift Wrapping"
+      description: "Holiday elves at your service! My partner and I are available to help with all your gift-wrapping needs this season. You provide the gifts and wrapping supplies, we do the wrapping!"
+    - title: "House Cleaning"
+      description: "I would be happy to help someone do some standard cleaning! I am fully vaccinated and have been boosted 2x."
+    - title: "Grocery Shopping & Errands"
+      description: "I can run errands for someone who is in need. I am most available to help on Thursday-Sunday, and most available on the weekends."
+    - title: "Decluttering"
+      description: "I have helped people get de-cluttered, and organize their spaces before. Sometimes people just need a little non-judgmental assistance in clearing out the old to welcome the new."
+
+  sample_requests:
+    - title: "Computer Assistance"
+      description: "I am struggling with an issue on my iMac."
+    - title: "Need Computer Mouse"
+      description: "I need a mouse for a 10-year old iMac."
+    - title: "Arts and Crafts"
+      description: "I'd love to sit with someone and do crafts! I'm a creative person, but don't have many art supplies at my disposal. I would love guidance from an experienced crafter, or anyone who has some creative ideas and wants to have some fun."
+    - title: "Mending and Alterations"
+      description: "I know next to nothing about sewing. I'd love to be able to sew on a button, or mend a tear. I would also be open to learning how to crochet a hat or scarf!"
+    - title: "Social Media and Email Advice"
+      description: "Choosing Promotions Emails: I'm on TOO many lists and need reflection about choosing to LET GO. Can do over a zoom meet / screen share process. Need patience and understanding."
+
+  quote: "Belonging to a social network gives our lives more meaning. As we give to others, we also give to ourselves"
+
+  footer_links:
+    - label: "Connect With Us"
+      url: "#"
+    - label: "Member Login"
+      url: "https://hourworld.org"
+    - label: "Support Us"
+      url: "#"
+    - label: "Privacy Policy"
+      url: "#"
+    - label: "Terms of Service"
+      url: "#"
+
+  social:
+    facebook: ""
+    twitter: ""
+    rss: ""
+
+# Jekyll
+markdown: kramdown
+permalink: pretty

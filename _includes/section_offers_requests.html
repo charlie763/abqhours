@@ -1,0 +1,25 @@
+{% assign tb = site.timebank %}
+<section class="offers-requests et_pb_section">
+  <div class="et_pb_row">
+    <div class="et_pb_column et_pb_column_1_2">
+      <div class="et_pb_text threecolumnhead">
+        <h2>SAMPLE OFFERS</h2>
+      </div>
+      <div class="et_pb_text">
+        {% for offer in tb.sample_offers %}
+        <p><strong>{{ offer.title }}</strong><br><span>{{ offer.description }}</span></p>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="et_pb_column et_pb_column_1_2 et-last-child">
+      <div class="et_pb_text threecolumnhead">
+        <h2>SAMPLE REQUESTS</h2>
+      </div>
+      <div class="et_pb_text">
+        {% for request in tb.sample_requests %}
+        <p><strong>{{ request.title }}</strong><br><span>{{ request.description }}</span></p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

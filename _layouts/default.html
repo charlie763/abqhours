@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% assign tb = site.timebank %}
+  <style>
+    :root {
+      --brand-color: {{ tb.brand_color }};
+      --brand-teal: {{ tb.brand_color_teal }};
+      --brand-dark: {{ tb.brand_color_dark }};
+      --footer-bg: {{ tb.footer_bg }};
+    }
+  </style>
+</head>
+<body>
+  <div id="page-container">
+    {% include topbar.html %}
+    {% include header.html %}
+    <div id="et-main-area">
+      <main id="main-content">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+  </div>
+</body>
+</html>

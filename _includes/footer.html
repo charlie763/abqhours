@@ -1,0 +1,36 @@
+{% assign tb = site.timebank %}
+<footer id="main-footer">
+  <div id="et-footer-nav">
+    <div class="container">
+      <ul id="menu-footer-menu" class="bottom-nav">
+        {% for link in tb.footer_links %}
+        <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div id="footer-bottom">
+    <div class="container clearfix">
+      <p id="footer-info">
+        &copy; {{ 'now' | date: '%Y' }} {{ site.title }} | All Rights Reserved | Albuquerque, NM
+        <ul class="et-social-icons">
+          {% if tb.social.facebook != "" %}
+          <li class="et-social-icon et-social-facebook">
+            <a href="{{ tb.social.facebook }}" class="icon" aria-label="Facebook">Facebook</a>
+          </li>
+          {% endif %}
+          {% if tb.social.twitter != "" %}
+          <li class="et-social-icon et-social-twitter">
+            <a href="{{ tb.social.twitter }}" class="icon" aria-label="X">X</a>
+          </li>
+          {% endif %}
+          {% if tb.social.rss != "" %}
+          <li class="et-social-icon et-social-rss">
+            <a href="{{ tb.social.rss }}" class="icon" aria-label="RSS">RSS</a>
+          </li>
+          {% endif %}
+        </ul>
+      </p>
+    </div>
+  </div>
+</footer>

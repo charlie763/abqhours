@@ -1,0 +1,38 @@
+{% assign tb = site.timebank %}
+{% assign s = tb.stats %}
+<section class="stats et_pb_section et_pb_with_background">
+  <div id="stats" class="et_pb_row et_pb_row_fullwidth et_pb_equal_columns">
+    <div class="et_pb_column et_pb_column_1_4">
+      <div class="et_pb_text et_pb_text_align_center et_pb_bg_layout_dark">
+        <div class="et_pb_text_inner">
+          <h1>{{ s.local_hours }}</h1>
+          <p>{{ s.local_hours_label }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="et_pb_column et_pb_column_1_4">
+      <div class="et_pb_text et_pb_text_align_center et_pb_bg_layout_dark">
+        <div class="et_pb_text_inner">
+          <h1>{{ s.years_local }}</h1>
+          <p>{{ s.years_label }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="et_pb_column et_pb_column_1_4">
+      <div class="et_pb_text et_pb_text_align_center et_pb_bg_layout_dark">
+        <div class="et_pb_text_inner">
+          <h1>{{ s.local_members }}</h1>
+          <p>{{ s.local_members_label }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="et_pb_column et_pb_column_1_4 et-last-child">
+      <div class="et_pb_text et_pb_text_align_center et_pb_bg_layout_dark">
+        <div class="et_pb_text_inner">
+          <h1>{{ s.global_members }}</h1>
+          <p>{{ s.global_members_label }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
