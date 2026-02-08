@@ -17,17 +17,18 @@ After editing, save and push to your GitHub repo; GitHub Pages will rebuild the 
 ## Run locally
 
 1. Install Ruby (e.g. from [ruby-lang.org](https://www.ruby-lang.org/en/downloads/)).
-2. In this folder, run:
+2. run `gem install bundler` (if you don't have bundler installed)
+3. In this folder, run:
    ```bash
    bundle install
    bundle exec jekyll serve
    ```
-3. Open [http://localhost:4000](http://localhost:4000) in your browser.
+4. Open [http://localhost:4000](http://localhost:4000) in your browser.
 
 For a **project site** (e.g. `username.github.io/abqhours`), `_config.yml` must have:
 
 ```yaml
-baseurl: "/abqhours"   # must match the repo name
+baseurl: "/abqhours" # must match the repo name
 url: "https://username.github.io"
 ```
 
@@ -69,7 +70,7 @@ jobs:
       - uses: actions/configure-pages@v4
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: "3.1"
           bundler-cache: true
       - run: bundle exec jekyll build --destination _site
       - uses: actions/upload-pages-artifact@v3
