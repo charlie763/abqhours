@@ -3,8 +3,8 @@
 
 title: "TimeBank Albuquerque"
 description: "A way to swap & share skills & services using time exchange"
-baseurl: ""  # use "" for username.github.io/repo, or "/abqhours" for project pages
-url: ""      # e.g. "https://yourusername.github.io" (optional)
+baseurl: "/abqhours"   # required for GitHub Pages project site (username.github.io/abqhours)
+url: "https://charlie763.github.io"   # your GitHub Pages base URL
 
 # --- All editable content is under "timebank:" ---
 # Change stats, links, sample offers/requests here. Save and push to update the site.

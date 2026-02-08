@@ -24,13 +24,14 @@ After editing, save and push to your GitHub repo; GitHub Pages will rebuild the 
    ```
 3. Open [http://localhost:4000](http://localhost:4000) in your browser.
 
-For a project site (e.g. `username.github.io/abqhours`), set in `_config.yml`:
+For a **project site** (e.g. `username.github.io/abqhours`), `_config.yml` must have:
 
 ```yaml
-baseurl: "/abqhours"
+baseurl: "/abqhours"   # must match the repo name
+url: "https://username.github.io"
 ```
 
-Leave `baseurl: ""` if the site is the root of the repo (e.g. `username.github.io`).
+If `baseurl` is wrong, CSS and other assets won’t load on GitHub Pages. Leave `baseurl: ""` only for a user/org site at the root (e.g. `username.github.io`).
 
 ## Deploy on GitHub Pages
 
