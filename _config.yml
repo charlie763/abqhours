@@ -11,10 +11,10 @@ url: "https://charlie763.github.io"   # your GitHub Pages base URL
 
 timebank:
   # Brand colors (hex codes)
-  brand_color: "#28aae0"
-  brand_color_teal: "#00d3c3"
-  brand_color_dark: "#07467b"
-  footer_bg: "#1a3a60"
+  brand_color: "#C14953"        # adobe/chile red
+  brand_color_teal: "#2D9C8C"   # turquoise green
+  brand_color_dark: "#522C1E"   # dark earth brown
+  footer_bg: "#2B1B13"          # deep mesa brown
 
   # Top bar links
   join_url: "https://hourworld.org/bank/Join.php"

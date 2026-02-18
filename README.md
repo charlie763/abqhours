@@ -16,14 +16,12 @@ After editing, save and push to your GitHub repo; GitHub Pages will rebuild the 
 
 ## Run locally
 
-1. Install Ruby (e.g. from [ruby-lang.org](https://www.ruby-lang.org/en/downloads/)).
-2. run `gem install bundler` (if you don't have bundler installed)
-3. In this folder, run:
+1. Install Ruby (e.g. from [ruby-lang.org](https://www.ruby-lang.org/en/downloads/)) and run `gem install bundler` if you don’t have Bundler.
+2. In this folder, run:
    ```bash
-   bundle install
-   bundle exec jekyll serve
+   bundle install && ./script/serve
    ```
-4. Open [http://localhost:4000](http://localhost:4000) in your browser.
+3. Open the URL shown in the terminal (e.g. [http://127.0.0.1:4000/abqhours/](http://127.0.0.1:4000/abqhours/)) in your browser.
 
 For a **project site** (e.g. `username.github.io/abqhours`), `_config.yml` must have:
 

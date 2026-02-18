@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# Run Jekyll with Ruby 4 compatibility shim loaded first (for tainted? etc).
+# Usage: ./script/serve [jekyll args...]   e.g. ./script/serve serve
+root = File.dirname(File.dirname(File.expand_path(__FILE__)))
+compat = File.join(root, "ruby4_compat.rb")
+opt = ENV["RUBYOPT"].to_s
+ENV["RUBYOPT"] = (opt.empty? ? "-r#{compat}" : "#{opt} -r#{compat}").strip
+Dir.chdir(root)
+exec("bundle", "exec", "jekyll", *ARGV.empty? ? ["serve"] : ARGV)
