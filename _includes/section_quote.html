@@ -5,6 +5,9 @@
       <div class="header-content">
         <div class="et_pb_header_content_wrapper">
           <span class="quotes">"</span>{{ tb.quote }}<span class="quotes">"</span>
+          {% if tb.quote_credit %}
+          <div class="quote-credit">{{ tb.quote_credit }}</div>
+          {% endif %}
         </div>
       </div>
     </div>

@@ -116,6 +116,13 @@ a:hover { text-decoration: underline; }
 }
 .quote-section .et_pb_header_content_wrapper { font-size: 90px; }
 .quote-section .quotes { font-size: 0.6em; vertical-align: super; }
+.quote-section .quote-credit {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 0.22em;
+  font-style: italic;
+  margin-top: 0.4em;
+  opacity: 0.95;
+}
 .join-cta {
   background-color: var(--brand-teal);
 }
