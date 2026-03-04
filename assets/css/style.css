@@ -60,11 +60,15 @@ a:hover { text-decoration: underline; }
   padding: 15px 0;
 }
 .logo_container { flex-shrink: 0; }
+.logo-svg {
+  height: 32px;
+  display: block;
+}
 .logo-text {
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--brand-color);
+  fill: var(--brand-color);
 }
 #top-menu {
   list-style: none;
@@ -99,16 +103,20 @@ a:hover { text-decoration: underline; }
   text-align: center;
 }
 .hero {
+  /* #5b0e0e */
   background-color: var(--brand-dark);
-  background-image: linear-gradient(rgba(40, 170, 224, 0.23), rgba(40, 170, 224, 0.23));
+  /* subtle warm overlay (replaces old blue tint) */
+  background-image: linear-gradient(rgba(217, 212, 191, 0.12), rgba(217, 212, 191, 0.12));
 }
 .hero .header-content h1 { font-size: 36px; }
 .hero .et_pb_fullwidth_header_subhead { font-size: 19px; }
 .intro {
-  background-color: var(--brand-color);
+  /* #b58c44 */
+  background-color: var(--brand-teal);
 }
 .quote-section {
-  background-color: var(--brand-teal);
+  /* #497570 */
+  background-color: var(--brand-color);
   font-family: 'Just Another Hand', cursive;
   font-size: 76px;
   line-height: 1.2;
@@ -124,7 +132,8 @@ a:hover { text-decoration: underline; }
   opacity: 0.95;
 }
 .join-cta {
-  background-color: var(--brand-teal);
+  /* #6c4f2f */
+  background-color: var(--footer-bg);
 }
 .join-cta .et_pb_module_header { font-size: 36px; }
 .join-cta .et_pb_fullwidth_header_subhead { font-size: 19px; }
@@ -188,7 +197,8 @@ a:hover { text-decoration: underline; }
 /* ----- Offers / Requests section ----- */
 .offers-requests.et_pb_section {
   padding: 50px 0;
-  background: #fff;
+  /* #d9d4bf */
+  background: #d9d4bf;
 }
 .et_pb_row {
   width: 90%;
@@ -207,10 +217,12 @@ a:hover { text-decoration: underline; }
 .threecolumnhead h2 {
   font-size: 22px;
   margin-bottom: 0.5em;
-  color: #333;
+  color: var(--brand-color);
 }
 .et_pb_text p { margin-bottom: 1em; }
 .et_pb_text strong { display: block; margin-bottom: 0.2em; }
+.offers-requests .et_pb_text strong { margin-bottom: 0; }
+.offers-requests .et_pb_text p { line-height: 1.35; margin-bottom: 1.35em; }
 
 /* ----- Stats section ----- */
 .stats.et_pb_section {
@@ -262,7 +274,7 @@ a:hover { text-decoration: underline; }
   gap: 1.5rem;
 }
 .bottom-nav a {
-  color: var(--brand-color);
+  color: #d9d4bf; /* same as sample offers/requests block */
 }
 .bottom-nav a:hover { opacity: 0.8; text-decoration: none; }
 #footer-bottom {

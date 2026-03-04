@@ -5,4 +5,5 @@ gem "bigdecimal"
 gem "csv"
 gem "webrick"
 gem "jekyll", "~> 3.9"
+gem "faraday-retry"
 gem "github-pages", group: :jekyll_plugins

@@ -11,10 +11,16 @@ url: "https://charlie763.github.io"   # your GitHub Pages base URL
 
 timebank:
   # Brand colors (hex codes)
-  brand_color: "#C14953"        # adobe/chile red
-  brand_color_teal: "#2D9C8C"   # turquoise green
-  brand_color_dark: "#522C1E"   # dark earth brown
-  footer_bg: "#2B1B13"          # deep mesa brown
+  # Palette (used for links/buttons + CSS variables)
+  # #d9d4bf (217,212,191)
+  # #5b0e0e (91,14,14)
+  # #497570 (73,117,112)
+  # #b58c44 (181,140,68)
+  # #6c4f2f (108,79,47)
+  brand_color: "#497570"
+  brand_color_teal: "#b58c44"
+  brand_color_dark: "#5b0e0e"
+  footer_bg: "#6c4f2f"
 
   # Top bar links
   join_url: "https://hourworld.org/bank/Join.php"
@@ -23,8 +29,8 @@ timebank:
 
   newsletter_url: ""   # optional - leave blank to hide newsletter link
 
-  learn_more_url: "#about"
-  get_started_url: "https://hourworld.org/bank/Join.php"
+  learn_more_url: "https://www.youtube.com/shorts/ziA3GenYc_Q"
+  get_started_url: "https://www.hourworld.org/bank/index.htm?hw=1107"
 
   stats:
     local_hours: "0"
@@ -37,28 +43,28 @@ timebank:
     global_members_label: "global network members"
 
   sample_offers:
-    - title: "Gift Wrapping"
-      description: "Holiday elves at your service! My partner and I are available to help with all your gift-wrapping needs this season. You provide the gifts and wrapping supplies, we do the wrapping!"
-    - title: "House Cleaning"
-      description: "I would be happy to help someone do some standard cleaning! I am fully vaccinated and have been boosted 2x."
-    - title: "Grocery Shopping & Errands"
-      description: "I can run errands for someone who is in need. I am most available to help on Thursday-Sunday, and most available on the weekends."
+    - title: "Weaving"
+      description: "I have a small tapestry loom and can teach the basics of tapestry weaving."
+    - title: "Seed Event"
+      description: "I'd love to host a seedling event at my home. Folks can come over and we'll set up some seedlings together. I'll put on a pot of tea."
+    - title: "Roller Skating"
+      description: "If you or someone you know wants to learn how to roller skate or level up your roller skating skills, let me know."
     - title: "Decluttering"
       description: "I have helped people get de-cluttered, and organize their spaces before. Sometimes people just need a little non-judgmental assistance in clearing out the old to welcome the new."
 
   sample_requests:
-    - title: "Computer Assistance"
-      description: "I am struggling with an issue on my iMac."
-    - title: "Need Computer Mouse"
-      description: "I need a mouse for a 10-year old iMac."
-    - title: "Arts and Crafts"
-      description: "I'd love to sit with someone and do crafts! I'm a creative person, but don't have many art supplies at my disposal. I would love guidance from an experienced crafter, or anyone who has some creative ideas and wants to have some fun."
+    - title: "Language Practice"
+      description: "Looking for a native European Portuguese speaker to practice with me."
+    - title: "Fitness Help"
+      description: "I would like some help setting up a fitness equipment workout plan for myself."
+    - title: "Website Help"
+      description: "I use SquareSpace for my portfolio website and edit it so infrequently that it's time consuming for me to add photos and texts. I'd like some pointers for editing my SquareSpace website."
     - title: "Mending and Alterations"
       description: "I know next to nothing about sewing. I'd love to be able to sew on a button, or mend a tear. I would also be open to learning how to crochet a hat or scarf!"
-    - title: "Social Media and Email Advice"
-      description: "Choosing Promotions Emails: I'm on TOO many lists and need reflection about choosing to LET GO. Can do over a zoom meet / screen share process. Need patience and understanding."
+    
+  
 
-  quote: "Mutual aid [called this in Kropotkin's 1902 Mutual Aid: A Factor of Evolution] means that every participant is both giver and recipient in acts of care that bind them together."
+  quote: "Mutual aid ... means that every participant is both giver and recipient in acts of care that bind them together."
   quote_credit: "— Rebecca Solnit"
 
   footer_links:

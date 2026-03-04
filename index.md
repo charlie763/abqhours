@@ -17,9 +17,6 @@ title: Home
     <div class="et_pb_section et_pb_fullwidth_section et_section_regular">
       {% include section_quote.html %}
     </div>
-    <div class="et_pb_section et_section_regular">
-      {% include section_stats.html %}
-    </div>
     <div class="et_pb_section et_pb_fullwidth_section et_section_regular">
       {% include section_join.html %}
     </div>

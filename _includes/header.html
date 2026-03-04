@@ -3,7 +3,10 @@
   <div class="container clearfix et_menu_container">
     <div class="logo_container">
       <a href="{{ '/' | relative_url }}">
-        <span class="logo-text">{{ site.title }}</span>
+        <svg class="logo-svg" viewBox="0 0 320 32" aria-labelledby="site-logo" role="img">
+          <title id="site-logo">{{ site.title }}</title>
+          <text x="0" y="22" class="logo-text">{{ site.title }}</text>
+        </svg>
       </a>
     </div>
     <nav id="top-menu-nav">

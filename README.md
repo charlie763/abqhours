@@ -23,6 +23,8 @@ After editing, save and push to your GitHub repo; GitHub Pages will rebuild the 
    ```
 3. Open the URL shown in the terminal (e.g. [http://127.0.0.1:4000/abqhours/](http://127.0.0.1:4000/abqhours/)) in your browser.
 
+**Tip:** Changes to `_config.yml` do not show up until you restart the server. Stop it with **Ctrl+C**, then run `bundle install && ./script/serve` again.
+
 For a **project site** (e.g. `username.github.io/abqhours`), `_config.yml` must have:
 
 ```yaml
