@@ -1,9 +1,14 @@
 {% assign tb = site.timebank %}
 <header id="main-header">
-  <div class="container clearfix et_menu_container">
+  <div class="et_menu_container">
     <div class="logo_container">
       <a href="{{ '/' | relative_url }}">
-        <svg class="logo-svg" viewBox="0 0 320 32" aria-labelledby="site-logo" role="img">
+        <svg
+          class="logo-svg"
+          viewBox="0 0 320 32"
+          aria-labelledby="site-logo"
+          role="img"
+        >
           <title id="site-logo">{{ site.title }}</title>
           <text x="0" y="22" class="logo-text">{{ site.title }}</text>
         </svg>
@@ -13,8 +18,14 @@
       <ul id="top-menu" class="nav">
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a href="{{ tb.learn_more_url }}">About</a></li>
+        <li><a href="{{ tb.join_url }}">JOIN US</a></li>
+        <li>
+          <a href="{{ tb.member_login_url }}">MEMBER LOG-IN (hOurworld)</a>
+        </li>
         {% if tb.newsletter_url != "" %}
-        <li><a href="{{ tb.newsletter_url }}">Get Our Monthly Newsletter</a></li>
+        <li>
+          <a href="{{ tb.newsletter_url }}">Get Our Monthly Newsletter</a>
+        </li>
         {% endif %}
       </ul>
     </nav>
